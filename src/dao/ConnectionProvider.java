@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 public class ConnectionProvider {
     public static Connection getConn(){
         try {
-            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inventory", "root", "$Riocool003");
+            Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/inventory", "your database user", "your password");
             return conn;
         } catch (SQLException ex) {
             Logger.getLogger(ConnectionProvider.class.getName()).log(Level.SEVERE, null, ex);
