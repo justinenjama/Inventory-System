@@ -43,14 +43,11 @@ CREATE TABLE `appuser` (
 --
 
 INSERT INTO `appuser` (`appuser_pk`, `userRole`, `name`, `mobileNumber`, `email`, `password`, `address`, `status`) VALUES
-(1, 'supperAdmin', 'Super Admin', '0704269165', 'superadmin@gmail.com', 'admin', 'kenya', 'Active'),
+(1, 'supperAdmin', 'Super Admin', '0700000000', 'superadmin@gmail.com', 'admin', 'kenya', 'Active'),
 (3, 'Admin', 'Test User 1', '0711111111', 'testuser1@testemail.com', '123', 'Test', 'Active'),
-(4, 'Admin', 'Test User 2', '0789623452', 'testuser2@testemail.com', '1234', 'Test 2', 'Active'),
-(5, 'Admin', 'Test User 3', '0799999999', 'testuser3@testemail.com', '1234', 'Test 3', 'Active'),
-(6, 'Admin', 'njama', '0704269165', 'njama23@gmail.com', '$RIocool003', 'Malindi', 'Active'),
-(7, 'Admin', 'justinen njama', '0789651230', 'justinenjama9@gmail.com', '97688f05950c296d31e745e02704b9e9614b73fa1d0b436342967836c5f09e05', 'Sydnee', 'Active'),
-(8, 'Admin', 'Test User 7', '0712623257', 'testuser7@testemail.com', '17d6c4b0b01c6e9a26d277a21e884e9ccf168dd8bf3c719e1cecd5946e8d2ead', 'Test 7', 'Active'),
-(9, 'Admin', 'masika', '0707334899', 'masikanjama@gmail.com', '2aaaf037c313767c5dda219999e6d66e4dbc54ac3ff01e7902bce7ccee36e2c8', 'Msumarini', 'InActive');
+(4, 'Admin', 'top shotter', '0700000010', 'example9@gmail.com', '97688f05950c296d31e745e02704b9e9614b73fa1d0b436342967836c5f09e05', 'Sydnee', 'Active'),
+(5, 'Admin', 'Test User 7', '0777777777', 'testuser7@testemail.com', '17d6c4b0b01c6e9a26d277a21e884e9ccf168dd8bf3c719e1cecd5946e8d2ead', 'Test 7', 'Active'),
+(6, 'Admin', 'njugu', '0799999999', 'kujawewe11@gmail.com', '2aaaf037c313767c5dda219999e6d66e4dbc54ac3ff01e7902bce7ccee36e2c8', 'Msumarini', 'InActive');
 
 -- --------------------------------------------------------
 
@@ -90,8 +87,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`customer_pk`, `name`, `mobileNumber`, `email`) VALUES
-(1, 'justine fighter', '0704269165', 'justinenjama33@gmail.com'),
-(2, 'njama', '0799989195', 'riocoolnjama@gmail.com');
+(1, 'dume fighter', '0711111111', 'example22@gmail.com'),
+(2, 'boss', '0700000011', 'example11a@gmail.com');
 
 -- --------------------------------------------------------
 
